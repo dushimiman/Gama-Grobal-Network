@@ -101,4 +101,14 @@
     text-decoration: none;
     border-radius: 5px;
   }
-  
+  .card-img img {
+    object-fit: cover;
+    height: 250px; /* Set a consistent height */
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .card-img img {
+      height: 200px; /* Adjust height for smaller screens */
+    }
+  }
