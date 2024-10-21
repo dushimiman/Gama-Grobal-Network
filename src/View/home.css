@@ -112,3 +112,28 @@
       height: 200px; /* Adjust height for smaller screens */
     }
   }
+  .contact-container {
+    background-color: #f5f5f5;
+    padding: 50px;
+    min-height: 100vh;
+    margin-top: 8em;
+  }
+  
+  .ant-form-item-label > label {
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: #2596be;
+  }
+  
+  button.ant-btn-primary {
+    background-color: #2596be;
+    border-color: #2596be;
+  }
+  
+  button.ant-btn-primary:hover {
+    background-color: #1d7fa6;
+    border-color: #1d7fa6;
+  }
+  

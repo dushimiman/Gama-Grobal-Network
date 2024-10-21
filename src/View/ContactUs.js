@@ -1,96 +1,112 @@
 import React from 'react';
-import './home.css';
+import { Form, Input, Button, Row, Col, message, Card } from 'antd';
+import { MailOutlined, PhoneOutlined, EnvironmentOutlined } from '@ant-design/icons';
+import './home.css'; // Your custom CSS file
+import Navbar from './Components/Navbar'; // Your Navbar component
+
+const { TextArea } = Input;
 
 const ContactUs = () => {
+  const onFinish = (values) => {
+    message.success('Your message has been sent successfully!');
+    console.log('Received values of form: ', values);
+    // Submit form values to backend or API
+  };
+
+  const onFinishFailed = (errorInfo) => {
+    message.error('Please complete the form correctly!');
+    console.log('Failed:', errorInfo);
+  };
+
   return (
     <>
-      <header className="main-header clearfix" role="banner">
-        <div className="logo">
-          <a href="#top">
-          <img src="/assets/images/logo.png" alt="Grad School Logo" style={{ width: '200px', height: 'auto' }} />
-          </a>
-        </div>
-        <a href="#menu" className="menu-link">
-          <i className="fa fa-bars"></i>
-        </a>
-        <nav id="menu" className="main-nav" role="navigation">
-          <ul className="main-menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/aboutus">About Us</a></li>
-            <li><a href="/service">Service</a></li>
-            <li><a href="/prize">Prize</a></li>
-            <li><a href="#section6">Contact</a></li>
-          </ul>
-        </nav>
+      {/* Navbar */}
+      <header className="main-header" role="banner">
+        <Navbar />
       </header>
 
-      <section className="section why-us" id="section2">
-        <section className="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="info-box" >
-                      <i className="bx bx-map"></i>
-                      <h3 style={{ color: 'white' }}>Our Address</h3>
-                      <p style={{ color: 'white' }}>Kigali city, Kicukiro, Kagarama</p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="info-box" >
-                      <i className="bx bx-envelope"></i>
-                      <h3 style={{ color: 'white' }}>Email Us</h3>
-                      <p style={{ color: 'white' }}><strong>Email:</strong> gamaglobalnetwork@gmail.com</p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="info-box" >
-                      <i className="bx bx-phone-call"></i>
-                      <h3 style={{ color: 'white' }}>Call Us</h3>
-                      <p style={{ color: 'white' }}>+250788872060</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      {/* Contact Section */}
+      <div className="contact-container">
+        <Row justify="center" gutter={16}>
+          <Col xs={24} md={12}>
+            <h2 className="contact-title">Contact Us</h2>
+            <Form
+              name="contact"
+              layout="vertical"
+              onFinish={onFinish}
+              onFinishFailed={onFinishFailed}
+              className="contact-form"
+            >
+              <Form.Item
+                label="Name"
+                name="name"
+                rules={[{ required: true, message: 'Please input your name!' }]}
+              >
+                <Input placeholder="Enter your name" />
+              </Form.Item>
 
-              <div className="col-lg-6">
-                <form action="contact.php" method="post" role="form" className="php-email-form">
-                  <div className="row">
-                    <div className="col-md-6 form-group">
-                      <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
-                    </div>
-                    <div className="col-md-6 form-group mt-3 mt-md-0">
-                      <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required />
-                    </div>
-                  </div>
-                  <div className="form-group mt-3">
-                    <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
-                  </div>
-                  <div className="form-group mt-3">
-                    <textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                  </div>
-                
-                  <div className="text-center">
-                    <input type="submit" value="Send Message" className="btn btn-primary" />
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </section>
-      </section>
+              <Form.Item
+                label="Email"
+                name="email"
+                rules={[
+                  { type: 'email', message: 'The input is not valid email!' },
+                  { required: true, message: 'Please input your email!' },
+                ]}
+              >
+                <Input placeholder="Enter your email" />
+              </Form.Item>
 
-      {/* Footer Section */}
-      <footer className="footer" >
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12 text-center">
+              <Form.Item
+                label="Subject"
+                name="subject"
+                rules={[{ required: true, message: 'Please input the subject!' }]}
+              >
+                <Input placeholder="Subject" />
+              </Form.Item>
+
+              <Form.Item
+                label="Message"
+                name="message"
+                rules={[{ required: true, message: 'Please input your message!' }]}
+              >
+                <TextArea rows={4} placeholder="Enter your message" />
+              </Form.Item>
+
+              <Form.Item>
+                <Button type="primary" htmlType="submit" className="submit-btn">
+                  Submit
+                </Button>
+              </Form.Item>
+            </Form>
+          </Col>
+
+          <Col xs={24} md={8}>
+            {/* <h3 className="contact-info-title">Contact Information</h3> */}
+            <Card className="contact-info-card">
               <p>
-                <i className="fa fa-copyright"></i> Copyright 2024 by Gama Global Network
+                <EnvironmentOutlined className="icon" />
+                <strong>Address:</strong> Kicukiro, Kigali, Rwanda
               </p>
-            </div>
-          </div>
+              <p>
+                <PhoneOutlined className="icon" />
+                <strong>Phone:</strong> +250788872060
+              </p>
+              <p>
+                <MailOutlined className="icon" />
+                <strong>Email:</strong> gamaglobalnetwork@gmail.com
+              </p>
+              <p>
+                <strong>Working Hours:</strong> Monday to Friday, 9AM - 5PM
+              </p>
+            </Card>
+          </Col>
+        </Row>
+      </div>
+
+      {/* Footer */}
+      <footer className="footer">
+        <div className="footer-container">
+          <p>© Copyright 2024 by Gama Global Network</p>
         </div>
       </footer>
     </>

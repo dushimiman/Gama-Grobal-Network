@@ -1,30 +1,12 @@
 import React from 'react';
-import './home.css';
+import Navbar from './Components/Navbar';
 
 const Prize = () => {
   return (
     <>
-      <header className="main-header clearfix" role="banner">
-        <div className="logo">
-          <a href="#top">
-          <img src="/assets/images/logo.png" alt="Grad School Logo" style={{ width: '200px', height: 'auto' }} />
-          </a>
-        </div>
-        <a href="#menu" className="menu-link">
-          <i className="fa fa-bars"></i>
-        </a>
-        <nav id="menu" className="main-nav" role="navigation">
-          <ul className="main-menu">
-            <li><a href="/">Home</a></li>
-           
-            <li><a href="/aboutus">About Us</a></li>
-            <li><a href="/service">Service</a></li>
-            <li><a href="/prize">Prize</a></li>
-            <li><a href="/contactus">Contact</a></li>
-          </ul>
-        </nav>
+        <header className="main-header clearfix" role="banner">
+      <Navbar />
       </header>
-
       <section className="section why-us" id="section2">
         <div className="container">
           <div className="row">

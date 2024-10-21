@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .main-nav {
+      display: none;
+    }
+    .menu-button {
+      display: inline-block;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .menu-button {
+      display: none;
+    }
+  }
+  

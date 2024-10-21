@@ -1,116 +1,96 @@
 import React from 'react';
-import './home.css';
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import Navbar from './Components/Navbar';
 
-const Service = () => {
+function Services() {
   return (
-    <>
-      {/* Header Section */}
-      <header className="main-header clearfix" role="banner">
-        <div className="logo">
-          <a href="#top">
-          <img src="/assets/images/logo.png" alt="Grad School Logo" style={{ width: '200px', height: 'auto' }} />
-          </a>
-        </div>
-        <a href="#menu" className="menu-link">
-          <i className="fa fa-bars"></i>
-        </a>
-        <nav id="menu" className="main-nav" role="navigation">
-          <ul className="main-menu">
-            <li><a href="/">Home</a></li>
-           
-            <li><a href="/aboutus">About Us</a></li>
-            <li><a href="/service">Service</a></li>
-            <li><a href="/prize">Prize</a></li>
-            <li><a href="/contactus">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-
-
-      {/* Service Section */}
-      <section className="section courses" data-section="section4">
-        <div className="container-fluid">
+    <div className="hero_area">
+      <section className="section why-us" id="section2">
+        <div className="container">
           <div className="row">
-            <div className="col-md-12">
-              <div className="section-heading">
-                <h2>Our Services</h2>
+            <div className="col-md-6 mb-4">
+              <h6 className="card-title text-white" style={{ fontStyle: 'italic' }}>
+                <a href="#">ENTREPRENEURSHIP OPPORTUNITIES FOR INTERNATIONAL STUDENTS</a>
+              </h6>
+              <h6 className="text-white mt-3" style={{ fontStyle: 'italic' }}>
+                <a href="#">Summer School Program</a>
+              </h6>
+              <div className="pt-4">
+                <ul className="list-unstyled">
+                  <li className="text-white" style={{ fontStyle: 'italic' }}>
+                    Our Summer School Program brings together international students with local students from various universities across Rwanda, focusing on fostering cultural and educational exchange. The program includes a blend of educational visits, activities, and leisure
+                  </li>
+                  <li className="text-white" style={{ fontStyle: 'italic' }}>
+                    Focuses on cultural and educational exchange.
+                  </li>
+                  <h6 className="text-white mt-3" style={{ fontStyle: 'italic' }}>
+                    <a href="#">Education Visits and Activities</a>
+                  </h6>
+                  <li className="text-white" style={{ fontStyle: 'italic' }}>
+                    Students have the opportunity to visit factories, industrial zones, and service providers, gaining valuable insights into Rwanda’s key industries. Alongside these visits, the program includes engaging activities such as games and storytelling to enhance the learning experience.
+                  </li>
+
+                  <h6 className="text-white mt-3" style={{ fontStyle: 'italic' }}>
+                    <a href="#">International Internship Programs</a>
+                  </h6>
+                  <li className="text-white" style={{ fontStyle: 'italic' }}>
+                    Our International Internship Programs provide international students with hands-on experience in various industries, including business, tourism, media, and environmental conservation. Internships are designed to enhance both employability and professional growth, equipping students with practical skills that are in demand globally. Additionally, participants have the opportunity to collaborate with local professionals and industry experts, gaining international work exposure and valuable connections.
+                  </li>
+                  
+                 
+                 
+      
+                </ul>
               </div>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-md-4">
-              <Card className="service-card">
-                <Card.Img variant="top" src="assets/images/courses-02.jpg" />
-                <Card.Body>
-                  <Card.Title>Guidance and Inspiration</Card.Title>
-                  <Card.Text>
-                    Members with religious backgrounds, including pastors and spiritual guides, and individuals who have personally witnessed and supported the transformative journey of others.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </div>
-            <div className="col-md-4">
-              <Card className="service-card">
-                <Card.Img variant="top" src="assets/images/2.jpg" />
-                <Card.Body>
-                  <Card.Title>Support and Encouragement</Card.Title>
-                  <Card.Text>
-                    Dedicated supporters who actively encourage and foster a positive and sober lifestyle. Local leaders actively engaged in promoting a healthier and more sober community.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </div>
-            <div className="col-md-4">
-              <Card className="service-card">
-                <Card.Img variant="top" src="assets/images/courses-04.jpg" />
-                <Card.Body>
-                  <Card.Title>Educational Advocacy</Card.Title>
-                  <Card.Text>
-                    Teachers, academics, and students actively involved in advocating for a healthier lifestyle.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </div>
-            <div className="col-md-4">
-              <Card className="service-card">
-                <Card.Img variant="top" src="assets/images/3.avif" />
-                <Card.Body>
-                  <Card.Title>Media Amplification</Card.Title>
-                  <Card.Text>
-                    Journalists who spread awareness, destigmatize sobriety, and share stories of transformation.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </div>
-            <div className="col-md-4">
-              <Card className="service-card">
-                <Card.Img variant="top" src="assets/images/download.jpg" />
-                <Card.Body>
-                  <Card.Title>Community Well-being and Financial Support</Card.Title>
-                  <Card.Text>
-                    Owners and leaders of NGOs focusing on health and community well-being. Medical practitioners, healthcare experts, business owners, and corporate allies contributing to overall well-being and financial support.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+
+            <div className="col-md-6 mb-4">
+              <div className="d-flex flex-column align-items-center">
+                <div className="mb-3">
+                  <img
+                    src="assets/images/Picture1.jpg"
+                    className="img-fluid rounded"
+                    alt="Image 1"
+                    style={{ objectFit: 'cover', maxHeight: '250px' }}
+                  />
+                </div>
+                <div className="mb-3">
+                  <img
+                    src="assets/images/Picture2.jpg"
+                    className="img-fluid rounded"
+                    alt="Image 2"
+                    style={{ objectFit: 'cover', maxHeight: '250px' }}
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Footer Section */}
+      <header className="main-header clearfix" role="banner">
+      <Navbar />
+      </header>
+
+
+
+
       <footer>
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <p><i className="fa fa-copyright"></i> Copyright 2024 by Gama Global Network</p>
+              <p><i className="fa fa-copyright"></i> Copyright 2024 by Gama Grobal Network
+              
+              
+              
+              </p>
             </div>
           </div>
         </div>
       </footer>
-    </>
-  );
-};
 
-export default Service;
+
+    </div>
+  );
+}
+
+export default Services;

@@ -1,223 +1,140 @@
 import React from "react";
 import { Layout, Typography, Card, Button } from "antd";
-
-import './ApplicationForm.css'; // Custom styles if needed
+import './ApplicationForm.css';
+import Navbar from "./Components/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 const { Content } = Layout;
 const { Title, Paragraph } = Typography;
 
 const ApplicationForm = () => {
-  return (
-    <Layout className="application-form">
-      <div className="hero-area">
-      <header className="main-header clearfix" role="banner">
-        <div className="logo">
-          <a href="#top">
-            <img src="/assets/images/logo.png" alt="Grad School Logo" style={{ width: '200px', height: 'auto' }} />
-          </a>
-        </div>
-        <a href="#menu" className="menu-link">
-          <i className="fa fa-bars"></i>
-        </a>
-        <nav id="menu" className="main-nav" role="navigation">
-          <ul className="main-menu">
-            <li><a href="/">Home</a></li>
+    return (
+        <Layout className="application-form">
+            <header className="main-header clearfix" role="banner">
+                <Navbar />
+            </header>
 
-            <li><a href="/aboutus">About Us</a></li>
-            <li><a href="/service">Service</a></li>
-            <li><a href="/prize">Prize</a></li>
-            <li><a href="/contactus">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      </div>
+            <Content className="content-container">
+                <Title level={3} className="main-title" style={{ color: '#fff', textAlign: 'center' }}>
+                    Welcome to Gama International Language & Training Centre (GILTC)
+                </Title>
+                <h2 className="location-info" style={{ color: '#fff', textAlign: 'center' }}>
+                    Find us at the former UTB University Building.
+                </h2>
 
-      <Content className="content-container">
-        <Title level={3} className="main-title" style={{ color: 'white' }}>
-        Welcome to Gama International Language & Training Centre (GITC)
-        </Title>
-        <i>
-          <h2 className="location-info" style={{ color: 'white' }}>
-            Find us at the former UTB University Building.
-          </h2>
-        </i>
+                <div className="container">
+                    <div className="row justify-content-center text-center">
+                        <div className="col-12">
+                            {/* Additional content if needed */}
+                        </div>
+                    </div>
 
-        <div className="container">
-          <div className="row justify-content-center text-center">
-            <div className="col-12">
-              {/* Additional content if needed */}
-            </div>
-          </div>
-
-          <div className="row justify-content-center info-section">
-            <div className="col-12 col-sm-6 col-lg-4">
-              <Card className="info-card" title="We Offer" bordered={false}>
-                <Paragraph>
-                  Learn Online or Face-to-Face at our Kigali location (former UTB
-                  University Building, Sonatubes)
-                </Paragraph>
-                <Paragraph>
-                  Entrepreneurship and specialized unique trainings included.
-                </Paragraph>
-              </Card>
-            </div>
-
-            <div className="col-12 col-sm-6 col-lg-4">
-              <Card className="info-card" title="Languages Offered" bordered={false}>
-                <ul>
-                  <li>German (Deutsch) and Arabic</li>
-                  <li>French and English</li>
-                  <li>Kinyarwanda and Spanish</li>
-                  <li>Portuguese and Chinese</li>
-                  <li>Swahili and Korean</li>
-                  <li>Japanese and more upon demand</li>
-                </ul>
-              </Card>
-            </div>
-
-            <div className="col-12 col-sm-6 col-lg-4">
-              <Card className="info-card" title="Course Fees" bordered={false}>
-                <Paragraph>
-                  Face-to-Face: 100,000 RWF (100 USD) per month for 3 months
-                </Paragraph>
-                <Paragraph>
-                  Online: 75,000 RWF (75 USD) per month for 3 months
-                </Paragraph>
-                <Paragraph>Registration Fee: 30,000 RWF (30 USD)</Paragraph>
-                {/* <Paragraph> Pay through SOBER CLUB accounts at Bank of Kigali (Rwanda)</Paragraph>
-                <Paragraph> RWF Account: 100147673188 </Paragraph>
-                <Paragraph> USD Account: 100163162247</Paragraph>
-                <Paragraph>Swift Code: BKIGRWRW</Paragraph> */}
-              </Card>
-            </div>
-            <br></br>
-            <div className="col-12 col-sm-6 col-lg-4">
-              <Card className="info-card" title="Why Choose SILT?" bordered={false}>
-                <Paragraph>✅ Programs for beginners and beyond</Paragraph>
-                <Paragraph>⏰ Flexible schedules: Day, evening, and weekend classes</Paragraph>
-                <Paragraph>
-                  Entrepreneurship and specialized unique trainings included.
-                </Paragraph>
-              </Card>
-            </div>
-
-            <div className="col-12 col-sm-6 col-lg-4">
-              <Card className="info-card" title="Easy Registration Process" bordered={false}>
-                <Paragraph>💵 Pay the registration fee and fill out our form.</Paragraph>
-                <Paragraph>📞 Our team will contact you right away to get started!</Paragraph>
-                <a 
-                  className="btn btn-primary btn-lg mt-2" 
-                  href="/register" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  Apply Here
-                </a>
-              </Card>
-            </div>
-
-            <div className="col-12 col-sm-6 col-lg-4">
-              <Card className="info-card" title="Contact Us" bordered={false}>
-                <Paragraph>📧 Email: soberclub2024@gmail.com</Paragraph>
-                <Paragraph>
-                  🌐 Website:{" "}
-                  <a
-                    href="http://www.soberclubsrwanda.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    www.soberclubsrwanda.com
-                  </a>
-                </Paragraph>
-                <Paragraph>📞 Call:</Paragraph>
-                <ul>
-                  <li>Dr. Gamariel: +250 788 872 060</li>
-                  <li>Ms. Patience: +250 788 702 881</li>
-                  <li>Dr. Fulgence: +250 785 846 400</li>
-                  <li>Dr. Amiel: +250 788 461 295</li>
-                  <li>Ms. Cynthia: +250 798 528 653</li>
-                </ul>
-              </Card>
-            </div>
-          </div>
-
-          {/* Add the button for online session here */}
-        </div>
-        
-        <div className="text-center mt-3">
-            <a 
-              className="btn btn-primary btn-lg" 
-              href="https://us05web.zoom.us/j/84757709782?pwd=O47yqW9XHS25gStbbFlEOp5w35ho1c.1" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              Attend Online Session
-            </a>
-          </div>
-
-
-      </Content>
-
-      <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-        <div className="footer-top">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Useful Links</h4>
-                <ul>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                </ul>
-              </div>
-
-              <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Other health activities</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Cultural education</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Other social education without accommodation</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">arts and entertainment activities</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="#">Creative</a></li>
-                </ul>
-              </div>
-
-              <div className="col-lg-3 col-md-6 footer-contact">
-                <h4>Contact Us</h4>
-                <p>
-                  Kagarama <br />
-                  Kigali, Kicukiro<br />
-                  Rwanda <br /><br />
-                  <strong>Phone:</strong> +250788872060<br />
-                  <strong>Email:</strong>  soberclubrw@gmail.com<br />
-                </p>
-              </div>
-
-              <div className="col-lg-3 col-md-6 footer-info">
-                <h3>About Sober Clubs Rwanda</h3>
-                <p>Sober Clubs Rwanda, an organized social enterprise company operating under the legal and regulatory framework of Rwanda, is committed to addressing the critical issue of substance abuse within our community.</p>
-                <div className="social-links mt-3">
-                  <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
-                  <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-                  <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                  <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                    <div className="row justify-content-center info-section">
+                        {[
+                            {
+                                title: "We Offer",
+                                content: [
+                                    "Learn Online or Face-to-Face at our Kigali location (former UTB University Building, Sonatubes)",
+                                    "Entrepreneurship and specialized unique trainings included."
+                                ]
+                            },
+                            {
+                                title: "Languages Offered",
+                                content: [
+                                    "German (Deutsch) and Arabic",
+                                    "French and English",
+                                    "Kinyarwanda and Spanish",
+                                    "Portuguese and Chinese",
+                                    "Swahili and Korean",
+                                    "Japanese and more upon demand"
+                                ]
+                            },
+                            {
+                                title: "Specialized Unique Professional Trainings",
+                                content: [
+                                    "At Gama International Language & Training Centre (GILTC), we offer a variety of specialized unique professional training programs designed to equip participants with essential skills and knowledge for personal and professional growth. Our expert trainers provide insightful, hands-on guidance in multiple disciplines to meet global demands."
+                                ]
+                            },
+                            {
+                                title: "Our Specialized Trainings",
+                                content: [
+                                    "✅ Training in Designing and Supporting Income-Generating Projects",
+                                    "✅ Training in Book Writing and Selling",
+                                    "✅ Training in Visa Application (BYIKORERA NAWE) and Advice on Study, Work & Visit USA, Canada, Europe & Asia",
+                                    "✅ Training in Organization of International Professional Internships",
+                                    "✅ Training in Sober Fellowship",
+                                    "✅ Training on Migration Laws",
+                                    "✅ Training in Research, Projects, Thesis, and Dissertation Writing Techniques",
+                                    "✅ Training in Videography, Photography, Editing, Filming, Animation, UI/UX Design, and Graphic Design"
+                                ]
+                            },
+                            {
+                                title: "Course Fees",
+                                content: [
+                                    "Face-to-Face: 100,000 RWF (100 USD) per month for 3 months",
+                                    "Online: 75,000 RWF (75 USD) per month for 3 months",
+                                    "Registration Fee: 30,000 RWF (30 USD)",
+                                    "Pay through SOBER CLUB accounts at Bank of Kigali (Rwanda)",
+                                    "RWF Account: 100147673188",
+                                    "USD Account: 100163162247",
+                                    "Swift Code: BKIGRWRW"
+                                ]
+                            },
+                            {
+                                title: "Why Choose SILT?",
+                                content: [
+                                    "✅ Programs for beginners and beyond",
+                                    "⏰ Flexible schedules: Day, evening, and weekend classes",
+                                    "Entrepreneurship and specialized unique trainings included.",
+                                    "Easy Registration Process"
+                                ]
+                            },
+                            {
+                                title: "Easy Registration Process",
+                                content: [
+                                    "💵 Pay the registration fee and fill out our form.",
+                                    "📞 Our team will contact you right away to get started!",
+                                    <a className="btn btn-primary btn-lg mt-2" href="/register" target="_blank" rel="noopener noreferrer">Apply Here</a>
+                                ]
+                            },
+                            {
+                                title: "Contact Us",
+                                content: [
+                                    "📧 Email: gamaglobalnetwork@gmail.com",
+                                    "🌐 Website: ",
+                                    <a href="http://www.soberclubsrwanda.com" target="_blank" rel="noopener noreferrer">https://www.gamaglobalnetwork.com/</a>,
+                                    "📞 Call:",
+                                    "Dr. Gamariel: +250 788 872 060",
+                                    "Ms. Patience: +250 788 702 881",
+                                    "Dr. Fulgence: +250 785 846 400",
+                                    "Dr. Amiel: +250 788 461 295",
+                                    "Ms. Cynthia: +250 798 528 653"
+                                ]
+                            }
+                        ].map((card, index) => (
+                            <div key={index} className="col-12 col-sm-6 col-lg-4">
+                                <Card className="info-card" title={card.title} bordered={false}>
+                                    {card.content.map((text, idx) => (
+                                        <Paragraph key={idx}>{text}</Paragraph>
+                                    ))}
+                                </Card>
+                            </div>
+                        ))}
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            </Content>
 
-        <div className="container">
-          <div className="copyright">
-            &copy; 2023 <strong><span>Sober Clubs Rwanda</span></strong>. All Rights Reserved
-          </div>
-        </div>
-      </footer>
-    </Layout>
-  );
+            <footer>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <p><i className="fa fa-copyright"></i> Copyright 2024 by Gama Global Network</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </Layout>
+    );
 };
 
 export default ApplicationForm;

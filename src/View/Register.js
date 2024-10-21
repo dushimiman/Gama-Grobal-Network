@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Form, Input, Button, Radio, Checkbox, message } from 'antd';
 import axios from 'axios';
-import './RegistrationForm.css'; // Import your custom CSS
+import './RegistrationForm.css'
 
 const RegistrationForm = () => {
   const [form] = Form.useForm();
-  const [isRegistered, setIsRegistered] = useState(false); // State to toggle form visibility
+  const [isRegistered, setIsRegistered] = useState(false);
 
   const onFinish = async (values) => {
     try {
@@ -115,14 +115,16 @@ const RegistrationForm = () => {
               rules={[{ required: true, message: 'Please select at least 3 training programs!' }]}
             >
               <Checkbox.Group>
-                <Checkbox value="incomeProjects">Training in Designing and Supporting Income-generating Projects</Checkbox>
+                <Checkbox value="incomeProjects">Training in Designing and Supporting Income-Generating Projects</Checkbox>
                 <Checkbox value="bookWriting">Training in Book Writing and Selling</Checkbox>
-                <Checkbox value="visaApplication">Training in Visa Application and Advice on Study, Work & Visit Abroad</Checkbox>
-                <Checkbox value="internship">Training in Organization of International Professional Internship</Checkbox>
+                <Checkbox value="visaApplication">Training in Visa Application (BYIKORERA NAWE) and Advice on Study, Work & Visit USA, Canada, Europe & Asia</Checkbox>
+                <Checkbox value="internship">Training in Organization of International Professional Internships</Checkbox>
                 <Checkbox value="entrepreneurship">Training in Entrepreneurship</Checkbox>
+                <Checkbox value="researchWriting">Training in Videography, Photography, Editing, Filming, Animation, UI/UX Design, and Graphic Design</Checkbox>
                 <Checkbox value="soberFellowship">Training in Sober Fellowship</Checkbox>
                 <Checkbox value="migrationLaws">Training on Migration Laws</Checkbox>
                 <Checkbox value="researchWriting">Training in Research, Projects, Thesis, and Dissertation Writing Techniques</Checkbox>
+               
               </Checkbox.Group>
             </Form.Item>
 
