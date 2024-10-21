@@ -10,7 +10,7 @@ const Service = () => {
       <header className="main-header clearfix" role="banner">
         <div className="logo">
           <a href="#top">
-            <img src="/assets/images/logo.png" alt="Grad School Logo" style={{ width: '70px', height: 'auto' }} />
+          <img src="/assets/images/logo.png" alt="Grad School Logo" style={{ width: '200px', height: 'auto' }} />
           </a>
         </div>
         <a href="#menu" className="menu-link">

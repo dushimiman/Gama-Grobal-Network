@@ -4,7 +4,8 @@ import AboutUs from './View/About';
 import Service from './View/Service';
 import Prize from './View/Prize';
 import ContactUs from './View/ContactUs';
-
+import ApplicationForm from './View/ApplicationForm';
+import RegistrationForm from './View/Register';
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -18,6 +19,8 @@ function App() {
         <Route path='/service' element={<Service/>} />
         <Route path='/prize' element={<Prize/>} />
         <Route path='/contactus' element={<ContactUs/>} />
+        <Route path='/ApplicationForm' element={<ApplicationForm/>} />
+        <Route path='/register' element={<RegistrationForm/>} />
         
        
       </Routes>
