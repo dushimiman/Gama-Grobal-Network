@@ -15,7 +15,7 @@ const AboutUs = () => {
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Why choose Gama Grobal Network?</h2>
+            <h2>Why choose Gama Global Network?</h2>
           </div>
         </div>
         <div class="col-md-12">
@@ -82,7 +82,7 @@ const AboutUs = () => {
         <div class="col-md-6 align-self-center">
           <div class="left-content">
             <span>our presentation is for you</span>
-            <h4>Watch the video to learn more <em>about Gama Grobal Network</em></h4>
+            <h4>Watch the video to learn more <em>about Gama Global Network</em></h4>
             
             <div class="main-button"><a href="/assets/images/video.mp4" class="play">learn More</a></div>
           </div>
@@ -110,7 +110,7 @@ const AboutUs = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <p><i className="fa fa-copyright"></i> Copyright 2024 by Gama Grobal Network
+              <p><i className="fa fa-copyright"></i> Copyright 2024 by Gama Global Network
               
               
               

@@ -78,7 +78,7 @@ function Services() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <p><i className="fa fa-copyright"></i> Copyright 2024 by Gama Grobal Network
+              <p><i className="fa fa-copyright"></i> Copyright 2024 by Gama Global Network
               
               
               
