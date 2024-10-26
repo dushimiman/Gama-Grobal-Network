@@ -6,6 +6,8 @@ import Prize from './View/Prize';
 import ContactUs from './View/ContactUs';
 import ApplicationForm from './View/ApplicationForm';
 import RegistrationForm from './View/Register';
+import InternationalRegister from './View/InternationalRegister';
+import International from './View/International';
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -21,6 +23,8 @@ function App() {
         <Route path='/contactus' element={<ContactUs/>} />
         <Route path='/ApplicationForm' element={<ApplicationForm/>} />
         <Route path='/register' element={<RegistrationForm/>} />
+        <Route path='/registerforInternationalIntership' element={<InternationalRegister/>} />
+        <Route path='/InternationalIntership' element={<International/>} />
         
        
       </Routes>

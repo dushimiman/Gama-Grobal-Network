@@ -28,8 +28,8 @@ const AboutUs = () => {
                     <img src="assets/images/choose-us-image-01.png" alt=""/>
                   </div>
                   <div class="col-md-6">
-                    <h4>Educational Initiatives</h4>
-                    <p>Conduct workshops, seminars, and awareness campaigns to disseminate knowledge about the dangers of substance abuse and promote a healthy lifestyle.</p>
+                    <h4 style={{ color: 'black' }}>Educational Initiatives</h4>
+                    <p style={{ color: 'black' }}>Conduct workshops, seminars, and awareness campaigns to disseminate knowledge about the dangers of substance abuse and promote a healthy lifestyle.</p>
                   </div>
                 </div>
               </article>
@@ -39,8 +39,8 @@ const AboutUs = () => {
                     <img src="assets/images/choose-us-image-02.png" alt=""/>
                   </div>
                   <div class="col-md-6">
-                    <h4>Support Services</h4>
-                    <p>Establish support programs to assist individuals struggling with substance abuse, offering counseling and rehabilitation services.</p> 
+                    <h4 style={{ color: 'black' }}>Support Services</h4>
+                    <p style={{ color: 'black' }}>Establish support programs to assist individuals struggling with substance abuse, offering counseling and rehabilitation services.</p> 
                    
                   </div>
                 </div>
@@ -51,8 +51,8 @@ const AboutUs = () => {
                     <img src="assets/images/choose-us-image-03.png" alt=""/>
                   </div>
                   <div class="col-md-6">
-                    <h4>Collaboration</h4>
-                    <p>Foster partnerships with local organizations, government bodies, and community leaders to create a united front against substance abuse.  Crosscutting areas: Perform any other activities related to its core areas such as other health activities, Cultural education, other social education without accommodation, creative, arts, and entertainment activities.</p>
+                    <h4 style={{ color: 'black' }}>Collaboration</h4>
+                    <p style={{ color: 'black' }}>Foster partnerships with local organizations, government bodies, and community leaders to create a united front against substance abuse.  Crosscutting areas: Perform any other activities related to its core areas such as other health activities, Cultural education, other social education without accommodation, creative, arts, and entertainment activities.</p>
                   </div>
                 </div>
                 <div class="row">
@@ -60,9 +60,9 @@ const AboutUs = () => {
                     <img src="assets/images/choose-us-image-03.png" alt=""/>
                   </div>
                   <div class="col-md-6">
-                    <h4>
+                    <h4 style={{ color: 'black' }}>
                     Crosscutting areas</h4>
-                    <p>Perform any other activities related to its core areas such as other health activities, Cultural education, other social education without accommodation, creative, arts, and entertainment activities.</p>
+                    <p style={{ color: 'black' }}>Perform any other activities related to its core areas such as other health activities, Cultural education, other social education without accommodation, creative, arts, and entertainment activities.</p>
                   </div>
                 </div>
               </article>
