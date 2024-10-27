@@ -23,8 +23,8 @@ function App() {
         <Route path='/contactus' element={<ContactUs/>} />
         <Route path='/ApplicationForm' element={<ApplicationForm/>} />
         <Route path='/register' element={<RegistrationForm/>} />
-        <Route path='/registerforInternationalIntership' element={<InternationalRegister/>} />
-        <Route path='/InternationalIntership' element={<International/>} />
+        <Route path='/registerforInternationalInternship' element={<InternationalRegister/>} />
+        <Route path='/InternationalInternship' element={<International/>} />
         
        
       </Routes>

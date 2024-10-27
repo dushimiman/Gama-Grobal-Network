@@ -344,7 +344,7 @@ function International() {
                                         title: "Apply Today!",
                                         content: [
                                             "⏰ Deadline:  January , 2025",
-                                            <a className="btn btn-primary btn-lg mt-2" href="/registerforInternationalIntership" target="_blank" rel="noopener noreferrer">Apply Here</a>
+                                            <a className="btn btn-primary btn-lg mt-2" href="/registerforInternationalInternship" target="_blank" rel="noopener noreferrer">Apply Here</a>
                                             
                                         ]
                                     },
