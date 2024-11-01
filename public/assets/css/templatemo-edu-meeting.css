@@ -691,7 +691,7 @@ banner
 
 #bg-video {
     min-width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     max-width: 100%;
     max-height: 100vh;
     object-fit: cover;
@@ -1325,7 +1325,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/meetings-bg.jpg);
+  /* background-image: url(../images/meetings-bg.jpg); */
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1334,7 +1334,7 @@ section.contact-us {
 }
 
 section.contact-us #contact {
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 20px;
   padding: 40px;
 }

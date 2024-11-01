@@ -21,11 +21,7 @@
     overflow: hidden;
   }
   
-  #bg-video {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
+ 
   
   .video-overlay {
     position: absolute;
@@ -58,7 +54,7 @@
   }
   
   .main-button .btn {
-    background-color: #e74c3c;
+    background-color: darkblue;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -66,42 +62,61 @@
   }
   
   .features {
-    padding: 60px 0;
-    margin-top: 1em;
+    background-color: #f0f8ff; /* Adjust the background color as needed */
+    padding: 40px 0;
   }
   
-  .features-post {
-    background: #d9534f; /* Card background color */
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px 0;
+  .feature-card {
+    background-color: #d32f2f; /* The red background color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 8px;
     transition: transform 0.3s;
   }
   
-  .features-post h4 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+  .feature-card:hover {
+    transform: translateY(-5px); /* Slight hover effect */
   }
   
-  .features-post p {
-    font-size: 0.9em;
+  .icon-circle {
+    background-color: darkblue; /* Darker shade of red for the icon background */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px auto;
   }
   
-  .features-post:hover {
-    transform: translateY(-10px);
+  .icon-circle i {
+    font-size: 24px;
+    color: #fff;
   }
   
-  .features-post i {
-    font-size: 2em;
-    margin-bottom: 10px;
+  .card-title {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .card-text {
+    font-size: 0.95em;
+    margin-bottom: 20px;
+  }
+  
+  .btn-outline-light {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #fff;
+    color: #d32f2f;
   }
   
   
-  .features-post:hover .content-show {
-    background-color: #000;
-  }
   /* Style for the service cards */
 .service-card {
     margin-bottom: 30px;
