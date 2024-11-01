@@ -1,15 +1,48 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.main-menu {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-button {
+  display: none;
+}
+
+/* Show Drawer menu on mobile */
 @media (max-width: 768px) {
-    .main-nav {
-      display: none;
-    }
-    .menu-button {
-      display: inline-block;
-    }
+  .main-nav {
+    display: none;
   }
-  
-  @media (min-width: 769px) {
-    .menu-button {
-      display: none;
-    }
+  .menu-button {
+    display: inline-block;
   }
-  
+}
