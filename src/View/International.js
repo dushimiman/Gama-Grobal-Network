@@ -47,7 +47,7 @@ function International() {
                         </a>
 
                         {/* Right logo */}
-                        <a href="index.html" className="d-flex align-items-center" style={{ position: 'absolute', right: 0 }}>
+                        {/* <a href="index.html" className="d-flex align-items-center" style={{ position: 'absolute', right: 0 }}>
                             <img
                                 src="assets/images/logo1.png"
                                 alt="Right Logo"
@@ -57,7 +57,7 @@ function International() {
                                 }}
                                 className="img-fluid"
                             />
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </header>
@@ -145,7 +145,7 @@ function International() {
                                     <a href="#" className="stretched-link">
                                         <h3>Sober Club Rwanda</h3>
                                     </a>
-                                    <p>Students can collaborate with Rwandan youth to provide training in areas such as entrepreneurship, communication, and technology. The cross-cultural exchange will allow U.S. students to share their expertise while learning from a Rwandan context.</p>
+                                    <p>Students can collaborate with Rwandan youth to provide training in areas such as entrepreneurship, communication, and technology. The cross-cultural exchange will allow  students to share their expertise while learning from a Rwandan context.</p>
                                 </div>
                             </div>
 
@@ -155,9 +155,9 @@ function International() {
                                         <i className="bi bi-easel"></i>
                                     </div>
                                     <a href="#" className="stretched-link">
-                                        <h3>East African University Rwanda (EAUR)</h3>
+                                        <h3>Selected Universities in Rwanda</h3>
                                     </a>
-                                    <p>With established incubation programs, American students can gain exposure to early-stage business development and research innovation that aligns with the university’s academic goals.</p>
+                                    <p>With established incubation programs,Students can gain exposure to early-stage business development and research innovation that aligns with the university’s academic goals.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -190,7 +190,7 @@ function International() {
                                     <a href="#" className="stretched-link">
                                         <h3>AETAR GROUP</h3>
                                     </a>
-                                    <p>U.S. students can gain practical experience in organizing and managing events, learning how to coordinate large-scale operations while understanding the dynamics of event entrepreneurship in Rwanda.</p>
+                                    <p>International Students can gain practical experience in organizing and managing events, learning how to coordinate large-scale operations while understanding the dynamics of event entrepreneurship in Rwanda.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -313,7 +313,8 @@ function International() {
                                             "✅Business & Finance",
                                             "✅Marketing & Social Work",
                                             "✅Computer Science & Technology",
-                                            "✅Exercise Science & Nursing"
+                                            "✅Exercise Science & Nursing",
+                                            "✅Other fields of Internships"
                                         ]
                                     },
                                     
@@ -331,19 +332,19 @@ function International() {
                                     {
                                         title: "Program Details",
                                         content: [
-                                            "✅Expected Number of students: 10-100 Americans (including 9-90 students and 1-10 chaperons) ",
-                                            "⏰When: Summer 2025 ( June-July 2025)",
-                                            "✅Where: Kigali, Rwanda",
+                                            "✅Expected Number of students: Unlimited",
+                                            "⏰When: Open throughout year",
+                                            "✅Where: Rwanda",
                                             "⏰Duration: 30 days",
                                             "✅Cost: under discussion ",
-                                            "✅Chaperone Fee: under discussion"
+                                            "✅Cost of Chaperone( a senior staff accompanying students: Free accomodation for each of the 5 accompanied"
                                           
                                         ]
                                     },
                                     {
                                         title: "Apply Today!",
                                         content: [
-                                            "⏰ Deadline:  March , 31 ,2025",
+                                            "⏰ Deadline:  Apply 3 months before",
                                             <a className="btn btn-primary btn-lg mt-2" href="/registerforInternationalInternship" target="_blank" rel="noopener noreferrer">Apply Here</a>
                                             
                                         ]

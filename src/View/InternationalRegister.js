@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Input, Button, Checkbox, message } from 'antd';
+import { Form, Input, Button, Checkbox, message, Select } from 'antd';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './RegistrationForm.css';
@@ -55,6 +55,16 @@ const InternationalRegister = () => {
             >
               <Input placeholder="Enter your email" />
             </Form.Item>
+<Form.Item
+  label="Phone Number (with Country Code)"
+  name="phone"
+  rules={[
+    { required: true, message: 'Please enter your phone number!' },
+    { pattern: /^\+\d{1,4}\s?\d{6,14}$/, message: 'Use correct format: +250 78xxxxxxx' },
+  ]}
+>
+  <Input placeholder="e.g., +250 788123456" />
+</Form.Item>
 
             <Form.Item
               label="Your Full Names"
@@ -80,21 +90,28 @@ const InternationalRegister = () => {
               <Input placeholder="Enter your location (Country, City)" />
             </Form.Item>
 
-            <Form.Item
-              label="Areas of Internship when you are in Rwanda"
-              name="internshipArea"
-              rules={[{ required: true, message: 'Please select at least one area!' }]}
-            >
-              <Checkbox.Group className="d-flex flex-column">
-                <Checkbox value="Education" className="form-check">Education</Checkbox>
-                <Checkbox value="Healthcare" className="form-check">Healthcare</Checkbox>
-                <Checkbox value="Tourism & Hospitality" className="form-check">Tourism & Hospitality</Checkbox>
-                <Checkbox value="Business & Finance" className="form-check">Business & Finance</Checkbox>
-                <Checkbox value="Marketing & Social Work" className="form-check">Marketing & Social Work</Checkbox>
-                <Checkbox value="Computer Science & Technology" className="form-check">Computer Science & Technology</Checkbox>
-                <Checkbox value="Exercise Science & Nursing" className="form-check">Exercise Science & Nursing</Checkbox>
-              </Checkbox.Group>
-            </Form.Item>
+           <Form.Item
+  label="Areas of Internship when you are in Rwanda"
+  name="internshipArea"
+  rules={[{ required: true, message: 'Please select at least one area!' }]}
+>
+  <Checkbox.Group className="d-flex flex-column">
+    <Checkbox value="Education" className="form-check">Education</Checkbox>
+    <Checkbox value="Healthcare" className="form-check">Healthcare</Checkbox>
+    <Checkbox value="Tourism & Hospitality" className="form-check">Tourism & Hospitality</Checkbox>
+    <Checkbox value="Business & Finance" className="form-check">Business & Finance</Checkbox>
+    <Checkbox value="Marketing & Social Work" className="form-check">Marketing & Social Work</Checkbox>
+    <Checkbox value="Computer Science & Technology" className="form-check">Computer Science & Technology</Checkbox>
+    <Checkbox value="Exercise Science & Nursing" className="form-check">Exercise Science & Nursing</Checkbox>
+  </Checkbox.Group>
+</Form.Item>
+
+<Form.Item
+  label="Any other areas of your interest"
+  name="otherInterests"
+>
+  <Input placeholder="Please specify other areas you're interested in" />
+</Form.Item>
 
             <Form.Item
               label="Any Comments on This Program"

@@ -54,7 +54,8 @@ function Navbar() {
               <Menu.Item key="3"><a href="/service">Service</a></Menu.Item>
               <Menu.Item key="4"><a href="/prize">Prize</a></Menu.Item>
               <Menu.Item key="5"><a href="/ApplicationForm">Learn Languages</a></Menu.Item>
-              <Menu.Item key="6"><a href="/contactus">Contact</a></Menu.Item>
+              <Menu.Item key="6"><a href="/TrainingPage">Training</a></Menu.Item> {/* NEW ITEM */}
+              <Menu.Item key="7"><a href="/contactus">Contact</a></Menu.Item>
             </Menu>
           </Drawer>
         </>
@@ -66,6 +67,7 @@ function Navbar() {
             <li><a href="/service">Service</a></li>
             <li><a href="/prize">Prize</a></li>
             <li><a href="/ApplicationForm">Learn Languages</a></li>
+            <li><a href="/Training">Training</a></li> {/* NEW ITEM */}
             <li><a href="/contactus">Contact</a></li>
           </ul>
         </nav>

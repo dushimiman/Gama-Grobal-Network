@@ -9,6 +9,7 @@ import RegistrationForm from './View/Register';
 import InternationalRegister from './View/InternationalRegister';
 import International from './View/International';
 import InternationalRegistrationsTable from './View/InternationalRegistrationsTable';
+import TrainingPage from './View/TrainingPage'
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -24,6 +25,7 @@ function App() {
         <Route path='/contactus' element={<ContactUs/>} />
         <Route path='/ApplicationForm' element={<ApplicationForm/>} />
         <Route path='/register' element={<RegistrationForm/>} />
+          <Route path='/training' element={<TrainingPage/>} />
         <Route path='/registerforInternationalInternship' element={<InternationalRegister/>} />
         <Route path='/InternationalInternship' element={<International/>} />
         <Route path='/allInternationalStudents' element={<InternationalRegistrationsTable/>} />
