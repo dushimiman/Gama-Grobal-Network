@@ -68,7 +68,7 @@ function Navbar() {
             <li><a href="/service">Service</a></li>
             <li><a href="/prize">Prize</a></li>
             <li><a href="/ApplicationForm">Learn Languages</a></li>
-              <li><a href="/InternationalInternship">International Internship</a></li>
+              <li><a href="/InternationalInternship"> Internship</a></li>
 
             <li><a href="/Training">Training</a></li> {/* NEW ITEM */}
             <li><a href="/contactus">Contact</a></li>
