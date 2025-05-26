@@ -28,7 +28,7 @@ function International() {
 
                                     <h3>Your Global Adventure Starts Here!</h3>
                                     <p>
-                                         Gama Global Network (GGN Ltd) are excited to co-organize a life-changing 30 day professional internship in Rwanda, “The Land of a Thousand Hills.” This unique collaboration provides International students with the opportunity to gain hands-on experience, immerse themselves in Rwandan culture, and build their professional skills in one of Africa's most beautiful countries.
+                                         Gama Global Network ( GGN Ltd) and its partners are excited to co-organize a life-changing 30 day professional internship in Rwanda, “The Land of a Thousand Hills.” This unique collaboration provides International students with the opportunity to gain hands-on experience, immerse themselves in Rwandan culture, and build their professional skills in one of Africa's most beautiful countries.
                                     </p>
                                     <div className="text-center">
                                         <a href="/" className="more-btn"><span>Learn More</span> <i className="bi bi-chevron-right"></i></a>
@@ -43,7 +43,7 @@ function International() {
 
                                         <div className="col-xl-6 d-flex align-items-stretch">
                                             <div className="icon-box" data-aos="zoom-out" data-aos-delay="400">
-                                                <i className="bi bi-gem"></i>
+                                                <i className="bi bi-gem"style={{  color: '#0033a0' }}></i>
                                                 <h4>Gama Global Network (GGN Ltd)</h4>
                                                 <p>based in Kigali, Rwanda, is a fully registered company in Rwanda known for management consultancy activities, research and experimental development on social sciences and humanities, professional scientific and technical activities, activities of employment placement agencies and other educational activities.  </p>
                                             </div>
@@ -51,9 +51,9 @@ function International() {
 
                                         <div className="col-xl-6 d-flex align-items-stretch">
                                             <div className="icon-box" data-aos="zoom-out" data-aos-delay="500">
-                                                <i className="bi bi-inboxes"></i>
-                                                <h4>offers international students </h4>
-                                                <p>Gama Global Network (GGN Ltd) offers international students access to unique, hands-on professional opportunities in Rwanda.
+                                                <i className="bi bi-inboxes"style={{  color: '#0033a0' }}></i>
+                                                <h4>Offers for international students </h4>
+                                                <p>Gama Global Network (GGN Ltd) offers for international students access to unique, hands-on professional opportunities in Rwanda.
                                                      Ensure an enriching experience for students that combines academic growth, practical training, and cultural immersion.</p>
                                             </div>
                                         </div>
