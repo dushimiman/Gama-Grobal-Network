@@ -13,20 +13,13 @@ const TrainingPage = () => {
 <br></br>
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-lg mt-10">
         <h1 className="text-3xl font-bold text-blue-700 mb-2">
-          Two-Day Training Program
+           Training Program
         </h1>
         <p className="text-gray-600 mb-6">
           Organized by <strong>Gama Global Network</strong>
         </p>
 
-        <h2 className="text-xl font-semibold mb-2">What You'll Learn:</h2>
-        <ul className="list-disc list-inside text-gray-700 space-y-1 mb-6">
-          <li>Fund Mobilization & Access to Finance</li>
-          <li>Carbon Credit Management & Climate Change Project Design</li>
-          <li>Book Illustration and Writing Techniques</li>
-          <li>Data Analysis Using SPS</li>
-        </ul>
-
+        
         <h2 className="text-xl font-semibold mb-2">Why Choose This Training?</h2>
         <ul className="list-disc list-inside text-gray-700 space-y-1 mb-6">
           <li>Hands-on and practical approach tailored to real-world challenges</li>

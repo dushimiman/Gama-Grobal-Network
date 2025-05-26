@@ -13,7 +13,7 @@ function International() {
                     <div className="container d-flex justify-content-center justify-content-md-between">
                         <div className="contact-info d-flex align-items-center">
                             <i className="bi bi-envelope d-flex align-items-center">
-                                <a href="mailto:contact@example.com">gamariel9@gmail.com</a>
+                                <a href="">gamariel9@gmail.com</a>
                             </i>
                             <i className="bi bi-phone d-flex align-items-center ms-4">
                                 <span>(+250) 788872060</span>
@@ -46,18 +46,7 @@ function International() {
                             />
                         </a>
 
-                        {/* Right logo */}
-                        {/* <a href="index.html" className="d-flex align-items-center" style={{ position: 'absolute', right: 0 }}>
-                            <img
-                                src="assets/images/logo1.png"
-                                alt="Right Logo"
-                                style={{
-                                    width: '80px', // Default width for small screens
-                                    height: 'auto',
-                                }}
-                                className="img-fluid"
-                            />
-                        </a> */}
+                       
                     </div>
                 </div>
             </header>
@@ -67,8 +56,8 @@ function International() {
                     <img src="assets/img/hero-bg.jpg" alt="Hero Background" data-aos="fade-in" />
                     <div className="container position-relative">
                         <div className="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
-                            <h2>Explore Rwanda with WSSU & Gama Global Network (GGN Ltd)’s </h2>
-                            <p>Professional Internship Program Summer 2025</p>
+                            <h2>Explore Rwanda with Gama Global Network (GGN Ltd)’s </h2>
+
                         </div>
 
                         <div className="content row gy-4">
@@ -76,7 +65,7 @@ function International() {
                                 <div className="why-box" data-aos="zoom-out" data-aos-delay="200">
                                     <h3>Your Global Adventure Starts Here!</h3>
                                     <p>
-                                        Winston-Salem State University (WSSU) and Gama Global Network (GGN Ltd) are excited to co-organize a life-changing 30 day professional internship in Rwanda, “The Land of a Thousand Hills.” This unique collaboration provides WSSU students with the opportunity to gain hands-on experience, immerse themselves in Rwandan culture, and build their professional skills in one of Africa's most beautiful countries.
+                                         Gama Global Network (GGN Ltd) are excited to co-organize a life-changing 30 day professional internship in Rwanda, “The Land of a Thousand Hills.” This unique collaboration provides International students with the opportunity to gain hands-on experience, immerse themselves in Rwandan culture, and build their professional skills in one of Africa's most beautiful countries.
                                     </p>
                                     <div className="text-center">
                                         <a href="/" className="more-btn"><span>Learn More</span> <i className="bi bi-chevron-right"></i></a>
@@ -87,15 +76,9 @@ function International() {
                             <div className="col-lg-8 d-flex align-items-stretch">
                                 <div className="d-flex flex-column justify-content-center">
                                     <div className="row gy-4">
-                                        <div className="col-xl-4 d-flex align-items-stretch">
-                                            <div className="icon-box" data-aos="zoom-out" data-aos-delay="300">
-                                                <i className="bi bi-clipboard-data"></i>
-                                                <h4>Winston-Salem State University (WSSU) </h4>
-                                                <p>is a top-ranked HBCU in North Carolina, committed to global learning experiences that empower students for success in international careers. WSSU brings academic excellence and innovative learning opportunities to its students through partnerships like this.</p>
-                                            </div>
-                                        </div>
+                                      
 
-                                        <div className="col-xl-4 d-flex align-items-stretch">
+                                        <div className="col-xl-6 d-flex align-items-stretch">
                                             <div className="icon-box" data-aos="zoom-out" data-aos-delay="400">
                                                 <i className="bi bi-gem"></i>
                                                 <h4>Gama Global Network (GGN Ltd)</h4>
@@ -103,12 +86,12 @@ function International() {
                                             </div>
                                         </div>
 
-                                        <div className="col-xl-4 d-flex align-items-stretch">
+                                        <div className="col-xl-6 d-flex align-items-stretch">
                                             <div className="icon-box" data-aos="zoom-out" data-aos-delay="500">
                                                 <i className="bi bi-inboxes"></i>
-                                                <h4>By partnering with WSSU</h4>
+                                                <h4>offers international students </h4>
                                                 <p>Gama Global Network (GGN Ltd) offers international students access to unique, hands-on professional opportunities in Rwanda.
-                                                    Together, WSSU and Gama Global Network (GGN Ltd) ensure an enriching experience for students that combines academic growth, practical training, and cultural immersion.</p>
+                                                     Ensure an enriching experience for students that combines academic growth, practical training, and cultural immersion.</p>
                                             </div>
                                         </div>
                                     </div>
