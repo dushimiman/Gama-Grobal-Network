@@ -22,4 +22,24 @@
       padding: 10px; /* Adjust padding on smaller screens */
     }
   }
-  
+  .training-section {
+  background-color: #f3f4f6; /* soft gray background */
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+ul li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a:hover {
+  text-decoration: none;
+}

@@ -2,67 +2,30 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ApplicationForm.css';
 import { Layout, Typography, Card, Button } from "antd";
+import Navbar from './Components/Navbar'
 
 const { Content } = Layout;
 const { Title, Paragraph } = Typography;
 function International() {
     return (
         <>
-            <header id="header" className="header sticky-top">
-                <div className="topbar d-flex align-items-center dark-background">
-                    <div className="container d-flex justify-content-center justify-content-md-between">
-                        <div className="contact-info d-flex align-items-center">
-                            <i className="bi bi-envelope d-flex align-items-center">
-                                <a href="">gamariel9@gmail.com</a>
-                            </i>
-                            <i className="bi bi-phone d-flex align-items-center ms-4">
-                                <span>(+250) 788872060</span>
-                            </i>
-                            <i className="bi bi-geo-alt d-flex align-items-center ms-4">
-                                <span>Rwanda, Kigali, Kicukiro</span>
-                            </i>
-                        </div>
-                        <div className="social-links d-none d-md-flex align-items-center">
-                            <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
-                            <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-                            <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-                            <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="branding d-flex align-items-center">
-                    <div className="container d-flex align-items-center justify-content-between position-relative">
-                        {/* Left logo */}
-                        <a href="index.html" className="d-flex align-items-center" style={{ position: 'absolute', left: 0 }}>
-                            <img
-                                src="assets/images/logo.png"
-                                alt="Left Logo"
-                                style={{
-                                    width: '150px', // Default width for small screens
-                                    height: 'auto',
-                                }}
-                                className="img-fluid"
-                            />
-                        </a>
-
-                       
-                    </div>
-                </div>
-            </header>
+              <header className="main-header clearfix" role="banner">
+      <Navbar />
+      </header>
 
             <main className="main">
                 <section id="hero" className="hero section dark-background">
                     <img src="assets/img/hero-bg.jpg" alt="Hero Background" data-aos="fade-in" />
                     <div className="container position-relative">
                         <div className="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
-                            <h2>Explore Rwanda with Gama Global Network (GGN Ltd)’s </h2>
+                            <h2 style={{  color: '#0033a0' }}>Explore Rwanda with Gama Global Network (GGN Ltd)’s </h2>
 
                         </div>
 
                         <div className="content row gy-4">
                             <div className="col-lg-4 d-flex align-items-stretch">
-                                <div className="why-box" data-aos="zoom-out" data-aos-delay="200">
+                               <div className="why-box" style={{ backgroundColor: '#0033a0', color: 'white' }} data-aos="zoom-out" data-aos-delay="200">
+
                                     <h3>Your Global Adventure Starts Here!</h3>
                                     <p>
                                          Gama Global Network (GGN Ltd) are excited to co-organize a life-changing 30 day professional internship in Rwanda, “The Land of a Thousand Hills.” This unique collaboration provides International students with the opportunity to gain hands-on experience, immerse themselves in Rwandan culture, and build their professional skills in one of Africa's most beautiful countries.
@@ -80,7 +43,8 @@ function International() {
 
                                         <div className="col-xl-6 d-flex align-items-stretch">
                                             <div className="icon-box" data-aos="zoom-out" data-aos-delay="400">
-                                                <i className="bi bi-gem"></i>
+                                               <i className="bi bi-gem" style={{ color: '#0033a0' }}></i>
+
                                                 <h4>Gama Global Network (GGN Ltd)</h4>
                                                 <p>based in Kigali, Rwanda, is a fully registered company in Rwanda known for management consultancy activities, research and experimental development on social sciences and humanities, professional scientific and technical activities, activities of employment placement agencies and other educational activities.  </p>
                                             </div>
@@ -88,7 +52,7 @@ function International() {
 
                                         <div className="col-xl-6 d-flex align-items-stretch">
                                             <div className="icon-box" data-aos="zoom-out" data-aos-delay="500">
-                                                <i className="bi bi-inboxes"></i>
+                                                <i className="bi bi-inboxes"style={{ color: '#0033a0' }}></i>
                                                 <h4>offers international students </h4>
                                                 <p>Gama Global Network (GGN Ltd) offers international students access to unique, hands-on professional opportunities in Rwanda.
                                                      Ensure an enriching experience for students that combines academic growth, practical training, and cultural immersion.</p>
