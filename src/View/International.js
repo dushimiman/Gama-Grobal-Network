@@ -43,8 +43,7 @@ function International() {
 
                                         <div className="col-xl-6 d-flex align-items-stretch">
                                             <div className="icon-box" data-aos="zoom-out" data-aos-delay="400">
-                                               <i className="bi bi-gem" style={{ color: '#0033a0' }}></i>
-
+                                                <i className="bi bi-gem"></i>
                                                 <h4>Gama Global Network (GGN Ltd)</h4>
                                                 <p>based in Kigali, Rwanda, is a fully registered company in Rwanda known for management consultancy activities, research and experimental development on social sciences and humanities, professional scientific and technical activities, activities of employment placement agencies and other educational activities.  </p>
                                             </div>
@@ -52,7 +51,7 @@ function International() {
 
                                         <div className="col-xl-6 d-flex align-items-stretch">
                                             <div className="icon-box" data-aos="zoom-out" data-aos-delay="500">
-                                                <i className="bi bi-inboxes"style={{ color: '#0033a0' }}></i>
+                                                <i className="bi bi-inboxes"></i>
                                                 <h4>offers international students </h4>
                                                 <p>Gama Global Network (GGN Ltd) offers international students access to unique, hands-on professional opportunities in Rwanda.
                                                      Ensure an enriching experience for students that combines academic growth, practical training, and cultural immersion.</p>
