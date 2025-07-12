@@ -54,7 +54,7 @@ function Navbar() {
               <Menu.Item key="3"><a href="/service">Service</a></Menu.Item>
               <Menu.Item key="4"><a href="/prize">Prize</a></Menu.Item>
               <Menu.Item key="5"><a href="/ApplicationForm">Learn Languages</a></Menu.Item>
-                <Menu.Item key="6"><a href="/InternationalInternship">International Internship</a></Menu.Item>
+                <Menu.Item key="6"><a href="/InternationalInternship">International Internship/Edu Tour</a></Menu.Item>
               <Menu.Item key="7"><a href="/Training">Training</a></Menu.Item> {/* NEW ITEM */}
               <Menu.Item key="8"><a href="/contactus">Contact</a></Menu.Item>
             </Menu>

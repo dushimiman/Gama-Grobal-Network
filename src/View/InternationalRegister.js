@@ -91,7 +91,7 @@ const InternationalRegister = () => {
             </Form.Item>
 
            <Form.Item
-  label="Areas of Internship when you are in Rwanda"
+  label="Areas of Internship/Education Tour when you are in Rwanda"
   name="internshipArea"
   rules={[{ required: true, message: 'Please select at least one area!' }]}
 >

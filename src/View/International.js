@@ -52,9 +52,9 @@ function International() {
                                         <div className="col-xl-6 d-flex align-items-stretch">
                                             <div className="icon-box" data-aos="zoom-out" data-aos-delay="500">
                                                 <i className="bi bi-inboxes"style={{  color: '#0033a0' }}></i>
-                                                <h4>Offers for international students </h4>
-                                                <p>Gama Global Network (GGN Ltd) offers for international students access to unique, hands-on professional opportunities in Rwanda.
-                                                     Ensure an enriching experience for students that combines academic growth, practical training, and cultural immersion.</p>
+                                                <h4>Offers for international students/Staff </h4>
+                                                <p>Gama Global Network (GGN Ltd) offers for international students/Staff access to unique, hands-on professional opportunities in Rwanda.
+                                                     Ensure an enriching experience for students/Staff that combines academic growth, practical training, and cultural immersion.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@ function International() {
                                     <a href="#" className="stretched-link">
                                         <h3>Sober Club Rwanda</h3>
                                     </a>
-                                    <p>Students can collaborate with Rwandan youth to provide training in areas such as entrepreneurship, communication, and technology. The cross-cultural exchange will allow  students to share their expertise while learning from a Rwandan context.</p>
+                                    <p>Students/Staff can collaborate with Rwandan youth to provide training in areas such as entrepreneurship, communication, and technology. The cross-cultural exchange will allow  students to share their expertise while learning from a Rwandan context.</p>
                                 </div>
                             </div>
 
@@ -103,7 +103,7 @@ function International() {
                                     <a href="#" className="stretched-link">
                                         <h3>Selected Universities in Rwanda</h3>
                                     </a>
-                                    <p>With established incubation programs,Students can gain exposure to early-stage business development and research innovation that aligns with the university’s academic goals.</p>
+                                    <p>With established incubation programs,Students/Staff can gain exposure to early-stage business development and research innovation that aligns with the university’s academic goals.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -114,7 +114,7 @@ function International() {
                                     <a href="#" className="stretched-link">
                                         <h3>Strive Foundation Rwanda (SFR)</h3>
                                     </a>
-                                    <p>Students can experience firsthand how entrepreneurship is driving positive change in underprivileged communities, offering a rich field-based learning environment.</p>
+                                    <p>Students/Staff can experience firsthand how entrepreneurship is driving positive change in underprivileged communities, offering a rich field-based learning environment.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -125,7 +125,7 @@ function International() {
                                     <a href="#" className="stretched-link">
                                         <h3>Health Development Initiative (HDI)</h3>
                                     </a>
-                                    <p>HDI can offer students the chance to work on impactful health initiatives, developing entrepreneurial solutions that address healthcare challenges in a developing context.</p>
+                                    <p>HDI can offer students/Staff the chance to work on impactful health initiatives, developing entrepreneurial solutions that address healthcare challenges in a developing context.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -136,7 +136,7 @@ function International() {
                                     <a href="#" className="stretched-link">
                                         <h3>AETAR GROUP</h3>
                                     </a>
-                                    <p>International Students can gain practical experience in organizing and managing events, learning how to coordinate large-scale operations while understanding the dynamics of event entrepreneurship in Rwanda.</p>
+                                    <p>International Students/Staff can gain practical experience in organizing and managing events, learning how to coordinate large-scale operations while understanding the dynamics of event entrepreneurship in Rwanda.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -147,7 +147,7 @@ function International() {
                                     <a href="#" className="stretched-link">
                                         <h3>RICEM</h3>
                                     </a>
-                                    <p>With Rwanda’s strong cooperative movement, students can gain practical insights into how local businesses operate within a cooperative </p>
+                                    <p>With Rwanda’s strong cooperative movement, students/Staff can gain practical insights into how local businesses operate within a cooperative </p>
                                 </div>
                             </div>
                         </div>
@@ -278,7 +278,7 @@ function International() {
                                     {
                                         title: "Program Details",
                                         content: [
-                                            "✅Expected Number of students: Unlimited",
+                                            "✅Expected Number of students and Staff: Unlimited",
                                             "⏰When: Open throughout year",
                                             "✅Where: Rwanda",
                                             "⏰Duration: 30 days",
