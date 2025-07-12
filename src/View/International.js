@@ -251,7 +251,7 @@ function International() {
                                 {[
                                     
                                     {
-                                        title: "Fields of Internship",
+                                        title: "Fields of Internship/Education Tour",
                                         content: [
                                             "✅Education",
                                             "✅Healthcare",
@@ -260,7 +260,7 @@ function International() {
                                             "✅Marketing & Social Work",
                                             "✅Computer Science & Technology",
                                             "✅Exercise Science & Nursing",
-                                            "✅Other fields of Internships"
+                                            "✅Other fields of Internships/Education Tour"
                                         ]
                                     },
                                     
