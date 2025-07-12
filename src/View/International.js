@@ -28,7 +28,7 @@ function International() {
 
                                     <h3>Your Global Adventure Starts Here!</h3>
                                     <p>
-                                         Gama Global Network ( GGN Ltd) and its partners are excited to co-organize a life-changing 30 day professional internship/Education Tour in Rwanda, “The Land of a Thousand Hills.” This unique collaboration provides International students/Staff with the opportunity to gain hands-on experience, immerse themselves in Rwandan culture, and build their professional skills in one of Africa's most beautiful countries.
+                                         Gama Global Network ( GGN Ltd) and its partners are excited to co-organize a life-changing 30 day professional internship/Education Tour in Rwanda, “The Land of a Thousand Hills.” This unique collaboration provides International students/Staff with the opportunity to gain hands-on experience, immerse themselves in Rwandan culture, and build their professional skills/Academic Skills in one of Africa's most beautiful countries.
                                     </p>
                                     <div className="text-center">
                                         <a href="/" className="more-btn"><span>Learn More</span> <i className="bi bi-chevron-right"></i></a>
@@ -65,7 +65,7 @@ function International() {
                 </section>
                 <section id="services" className="services section light-background">
                     <div className="container section-title" data-aos="fade-up">
-                        <h2>Target Internship areas in Rwanda </h2>
+                        <h2>Target Internship/Education Tour program areas in Rwanda </h2>
                         {/* <p>Explore opportunities tailored to a variety of academic disciplines, including</p> */}
                     </div>
 
@@ -79,7 +79,7 @@ function International() {
                                     <a href="#" className="stretched-link">
                                         <h3>Gama Global Network (GGN LTD)</h3>
                                     </a>
-                                    <p>Students can immerse themselves in Rwanda's growing entrepreneurial ecosystem, learning about market entry strategies, financial models, and innovation in emerging markets.</p>
+                                    <p>Students/Staff can immerse themselves in Rwanda's growing entrepreneurial ecosystem, learning about market entry strategies, financial models, and innovation in emerging markets.</p>
                                 </div>
                             </div>
 
