@@ -251,7 +251,8 @@ function International() {
                                 {[
                                     
                                     {
-                                        title: "Fields of Internship/Education Tour",
+                                        title: "Fields of Internship",
+                                        title: "/Education Tour",
                                         content: [
                                             "✅Education",
                                             "✅Healthcare",
