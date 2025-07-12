@@ -28,7 +28,7 @@ function International() {
 
                                     <h3>Your Global Adventure Starts Here!</h3>
                                     <p>
-                                         Gama Global Network ( GGN Ltd) and its partners are excited to co-organize a life-changing 30 day professional internship in Rwanda, “The Land of a Thousand Hills.” This unique collaboration provides International students with the opportunity to gain hands-on experience, immerse themselves in Rwandan culture, and build their professional skills in one of Africa's most beautiful countries.
+                                         Gama Global Network ( GGN Ltd) and its partners are excited to co-organize a life-changing 30 day professional internship/Education Tour in Rwanda, “The Land of a Thousand Hills.” This unique collaboration provides International students with the opportunity to gain hands-on experience, immerse themselves in Rwandan culture, and build their professional skills in one of Africa's most beautiful countries.
                                     </p>
                                     <div className="text-center">
                                         <a href="/" className="more-btn"><span>Learn More</span> <i className="bi bi-chevron-right"></i></a>
