@@ -251,8 +251,8 @@ function International() {
                                 {[
                                     
                                     {
-                                        title: "Fields of Internship",
-                                        title: "/Education Tour",
+                                        title: "Fields of Internship/Education Tour",
+                                        
                                         content: [
                                             "✅Education",
                                             "✅Healthcare",
@@ -300,7 +300,15 @@ function International() {
                                  
                                 ].map((card, index) => (
                                     <div key={index} className="col-12 col-sm-6 col-lg-4">
-                                        <Card className="info-card" title={card.title} bordered={false}>
+                                        <Card
+  className="info-card"
+  title={
+    <div style={{ whiteSpace: 'normal', wordBreak: 'break-word' }}>
+      {card.title}
+    </div>
+  }
+  bordered={false}
+>
                                             {card.content.map((text, idx) => (
                                                 <Paragraph key={idx}>{text}</Paragraph>
                                             ))}
