@@ -27,7 +27,7 @@ function App() {
         <Route path='/register' element={<RegistrationForm/>} />
           <Route path='/training' element={<TrainingPage/>} />
         <Route path='/registerforInternationalInternship' element={<InternationalRegister/>} />
-        <Route path='/InternationalInternship' element={<International/>} />
+        <Route path='/InternationalInternshipAndEducationTourProgram' element={<International/>} />
         <Route path='/allInternationalStudents' element={<InternationalRegistrationsTable/>} />
         
        

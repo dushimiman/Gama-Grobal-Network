@@ -91,7 +91,7 @@ function International() {
                                     <a href="#" className="stretched-link">
                                         <h3>Sober Club Rwanda</h3>
                                     </a>
-                                    <p>Students/Staff can collaborate with Rwandan youth to provide training in areas such as entrepreneurship, communication, and technology. The cross-cultural exchange will allow  students to share their expertise while learning from a Rwandan context.</p>
+                                    <p>Students/Staff can collaborate with Rwandan youth to provide training in areas such as entrepreneurship, communication, and technology. The cross-cultural exchange will allow  students/staff to share their expertise while learning from a Rwandan context.</p>
                                 </div>
                             </div>
 
@@ -308,7 +308,7 @@ function International() {
     </div>
   }
   bordered={false}
->
+>0
                                             {card.content.map((text, idx) => (
                                                 <Paragraph key={idx}>{text}</Paragraph>
                                             ))}
